@@ -81,6 +81,10 @@ p {
     margin-left: 20px;
 }
 
+/*This section specifically refers to the Search Engine Optimization Section.
+Code is identical for Social Media Marketingsection.
+DRY - Don't Repeat Yourself.
+Edit or leave as is so each section can continue to be edited separately?*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -90,6 +94,7 @@ p {
     color: #ffffff;
 }
 
+/*This section specifically refers to the "Online Reputation Management" Section.*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -99,6 +104,7 @@ p {
     color: #ffffff;
 }
 
+/*This section specifically refers to the "Social Media Marketing" section.*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -108,6 +114,8 @@ p {
     color: #ffffff;
 }
 
+/*The following code limits the height of the images in their corresponding sections
+so they are not too big, thus messing up the visual flow of the page.*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -120,6 +128,9 @@ p {
     max-height: 200px;
 }
 
+/*This section adjusts the font size for the titles in their respective blocks.
+Note: The HTML had those titles as "h3", not "h2" thus these did nothing before.
+Adjusted HTML but does not look right.  "Float: center;" or margin:0 auto"?*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
