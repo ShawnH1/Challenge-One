@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* This section styles the Header section, setting the text style, background color, and text color. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/*This is for the "hero" (benefits) section*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,15 +62,18 @@ p {
     background-position: center;
 }
 
+/*This moves the text to the right so the pic is on the left.*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*This moves the text to the left so the pic will be on the right.*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
 
 .content {
     width: 75%;
